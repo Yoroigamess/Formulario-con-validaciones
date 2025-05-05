@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width",initial-scale=1.0>
+	<title>Document</title>
+</head>
+<body>
+	<h1>Sistema de Gestion de Inventario para pequeñas Empresas</h1>
+	<h1>-Formulario Con Validaciones-</h1>
+	<hr>
+	<form action="" method="post">
+
+	<label for="username"]>Cliente</label>
+	<p>
+	<input type="text" name="username" placeholder="Por ejemplo, Juan"
+          minlength="5" maxlength="40">
+<p>
+<label for="username"]>Categoria</label>
+<p>
+	<input type="text" name="username" placeholder="electronicos,ropa,etc"
+          minlength="5" maxlength="40">
+
+      <p><p> 
+      <label for="username"]>Producto</label>
+      <p><p>
+	<input type="text" name="username" placeholder="Nombre del Producto"
+          minlength="1" maxlength="20">
+
+          <p><p>
+	<label for="Precio">Precio(MX)</label>
+	<p><p>
+    <input type="text" name="numero" id="numero" placeholder="1 mx" maxlength="5" pattern="\d{1,5}" required>
+
+
+	<p>
+  <label for="numero">Cantidad</label>
+  <p>
+<input type="number" name="numero" id="numero"
+       placeholder="Solo números del 1 al 100"
+       min="1" max="20"
+       required>
+       <p>
+	<label for="date">Fecha de Registro:</label>
+	<p>
+	<input type="date" name="date" pllaceholder="2024-07-2022" min="2024-01-01" max="2025-12-31">
+
+	<br/><br/>
+	<label for="username">Proveedor(Empresa o Persona)</label>
+	<p>
+	<input type="text" name="username" placeholder="ManxDev" minlength="5" maxlength="40" required pattern="[A-Za-Z0-9]+"title="Solo se perminten mayusculas. minusculas o numeros, excepto la ñ o Ñ">
+
+	<br/><br/>
+	<input type="submit">
+
+</form>
